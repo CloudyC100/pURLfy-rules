@@ -30,6 +30,13 @@
 			"author": "PRO-2684"
 		}
 	},
+	"git.io/": {
+		"/\\.+": {
+			"description": "GitHub 短链",
+			"mode": "redirect",
+			"author": "PRO-2684"
+		}
+	},
 	"link.logonews.cn/": {
 		"/\\w+": {
 			"description": "标志情报局短链",

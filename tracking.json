@@ -57,7 +57,8 @@
 				"q",
 				"filters",
 				"ensearch",
-				"first"
+				"first",
+				"ubiroff"
 			],
 			"author": "PRO-2684"
 		},
@@ -144,6 +145,16 @@
 				"itemsId"
 			],
 			"author": "青墨"
+		}
+	},
+	"mandrillapp.com/": {
+		"track/": {
+			"click": {
+				"description": "Mandrill",
+				"mode": "lambda",
+				"lambda": "const b64 = url.searchParams.get('p'); const bytes = Uint8Array.from(atob(b64), (m) => m.codePointAt(0)); const payload = JSON.parse(new TextDecoder().decode(bytes)); const params = JSON.parse(payload.p); return new URL(params.url);",
+				"author": "PRO-2684"
+			}
 		}
 	},
 	"mp.weixin.qq.com/": {
