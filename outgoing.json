@@ -328,7 +328,7 @@
 		},
 		"embed/": {
 			"phone/": {
-				"/^\\d+$/": {
+				"/^\\d+$": {
 					"description": "腾讯兔小巢外链",
 					"mode": "param",
 					"params": [

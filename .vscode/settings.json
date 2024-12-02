@@ -1,0 +1,12 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "*.json",
+                "!list.json",
+                "!list.min.json"
+            ],
+            "url": "https://github.com/PRO-2684/pURLfy/raw/refs/heads/main/ruleset.schema.json"
+        }
+    ]
+}
