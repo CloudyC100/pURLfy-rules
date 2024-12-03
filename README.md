@@ -4,11 +4,12 @@ English | [简体中文](README_zh.md)
 
 [![jsDelivr hits](https://data.jsdelivr.com/v1/package/gh/PRO-2684/pURLfy-rules/badge?style=rounded)](https://www.jsdelivr.com/package/gh/PRO-2684/pURLfy-rules?tab=stats)
 
-Rules files for [pURLfy](https://github.com/PRO-2684/pURLfy).
+Rulesets for [pURLfy](https://github.com/PRO-2684/pURLfy). Description on structure of rulesets can be found in [pURLfy's README](https://github.com/PRO-2684/pURLfy/#-rulesets), and formal definition of the format can be found at [`ruleset.schema.json`](https://github.com/PRO-2684/pURLfy/blob/main/ruleset.schema.json).
+
 
 ## 📃 Files
 
-- [list.json](list.json): A list of all rule files.
+- [list.json](list.json): A list of all rulesets.
 - [tracking.json](tracking.json): Rules for purifying tracking links.
 - [outgoing.json](outgoing.json): Rules for purifying outgoing links.
 - [shortener.json](shortener.json): Rules for restoring shortened links.
