@@ -3,6 +3,7 @@
         {
             "fileMatch": [
                 "*.json",
+                "!settings.json",
                 "!list.json",
                 "!list.min.json"
             ],
