@@ -236,6 +236,18 @@
 			}
 		}
 	},
+	"resource-minecraft.h5.163.com/": {
+		"#/": {
+			"detail": {
+					"description": "我的世界中国版资源分享链接",
+					"mode": "white",
+					"params": [
+						"id"
+					],
+					"author": "Cloudy"
+			}
+		}
+	},
 	"search.bilibili.com": {
 		"description": "哔哩哔哩搜索",
 		"mode": "white",
