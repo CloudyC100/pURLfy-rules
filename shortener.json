@@ -4,6 +4,34 @@
 		"mode": "redirect",
 		"author": "PRO-2684"
 	},
+	"bili22.cn/": {
+		"/\\w+": {
+			"description": "哔哩哔哩短链",
+			"mode": "redirect",
+			"author": "PRO-2684"
+		}
+	},
+	"bili2233.cn/": {
+		"/\\w+": {
+			"description": "哔哩哔哩短链",
+			"mode": "redirect",
+			"author": "PRO-2684"
+		}
+	},
+	"bili23.cn/": {
+		"/\\w+": {
+			"description": "哔哩哔哩短链",
+			"mode": "redirect",
+			"author": "PRO-2684"
+		}
+	},
+	"bili33.cn/": {
+		"/\\w+": {
+			"description": "哔哩哔哩短链",
+			"mode": "redirect",
+			"author": "PRO-2684"
+		}
+	},
 	"bit.ly": {
 		"description": "Bitly",
 		"mode": "redirect",
@@ -109,6 +137,13 @@
 		"/\\w+": {
 			"description": "WX 短网址",
 			"mode": "visit",
+			"author": "PRO-2684"
+		}
+	},
+	"y8r.cn/": {
+		"/\\w+": {
+			"description": "YumChina 短网址",
+			"mode": "redirect",
 			"author": "PRO-2684"
 		}
 	},
