@@ -42,6 +42,16 @@
 			"description": "智谱清言分享短链",
 			"mode": "visit",
 			"author": "PRO-2684"
+		},
+		"main/": {
+			"gdetail/": {
+				"/\\w+": {
+					"description": "智谱清言智能体分享",
+					"mode": "white",
+					"params": [],
+					"author": "PRO-2684"
+				}
+			}
 		}
 	},
 	"dwz.cn/": {
