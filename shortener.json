@@ -1,5 +1,5 @@
 {
-    "b23.tv": {
+	"b23.tv": {
 		"description": "哔哩哔哩短链",
 		"mode": "redirect",
 		"author": "PRO-2684"
@@ -97,7 +97,11 @@
 		"/\\w+": {
 			"description": "微博短链",
 			"mode": "visit",
-			"acts": ["dom", "sel:.open-url a", "attr:href"],
+			"acts": [
+				"dom",
+				"sel:.open-url a",
+				"attr:href"
+			],
 			"author": "PRO-2684"
 		}
 	},

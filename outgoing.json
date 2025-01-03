@@ -1,5 +1,5 @@
 {
-    "51.ruyo.net/": {
+	"51.ruyo.net/": {
 		"go/": {
 			"index.html": {
 				"description": "如有外链",
@@ -11,7 +11,7 @@
 			}
 		}
 	},
-    "outgoing.prod.mozaws.net/": {
+	"outgoing.prod.mozaws.net/": {
 		"/v\\d/": {
 			"/\\w+": {
 				"description": "Mozilla 外链",
@@ -207,7 +207,11 @@
 		"headers": {
 			"Referer": "https://segmentfault.com/"
 		},
-		"acts": ["dom", "sel:body", "attr:data-url"],
+		"acts": [
+			"dom",
+			"sel:body",
+			"attr:data-url"
+		],
 		"author": "PRO-2684"
 	},
 	"link.uisdc.com": {
@@ -607,7 +611,9 @@
 		"params": [
 			"golink"
 		],
-		"acts": ["base64"],
+		"acts": [
+			"base64"
+		],
 		"author": "PRO-2684"
 	},
 	"www.so.com/": {
@@ -687,7 +693,11 @@
 			"index": {
 				"description": "百度外链",
 				"mode": "visit",
-				"acts": ["dom", "sel:.link", "text"],
+				"acts": [
+					"dom",
+					"sel:.link",
+					"text"
+				],
 				"author": "PRO-2684"
 			}
 		}

@@ -13,7 +13,7 @@
 		],
 		"author": "PRO-2684"
 	},
-    "baike.baidu.com/": {
+	"baike.baidu.com/": {
 		"item": {
 			"description": "百度百科",
 			"mode": "white",
@@ -185,22 +185,19 @@
 	},
 	"music.163.com/": {
 		"song": {
-                "description": "网易云音乐新链接格式",
-                "mode": "white",
-                "params": [
-                    "id"
-                ],
-                "author": "lz233, Cloudy"
-          	},
-		"#/": {
-			"song": {
-				"description": "网易云音乐",
-				"mode": "white",
-				"params": [
-					"id"
-				],
-				"author": "lz233"
-			}
+			"description": "网易云音乐新链接格式",
+			"mode": "white",
+			"params": [
+				"id"
+			],
+			"author": "lz233, Cloudy"
+		},
+		"": {
+			"description": "网易云音乐",
+			"mode": "lambda",
+			"lambda": "if (url.hash.startsWith('#/song?')) { const p = new URLSearchParams(url.hash.slice(7)); const c = new URLSearchParams(); c.set('id', p.get('id')); url.hash = '#/song?' + c.toString(); } return url;",
+			"author": "lz233",
+			"continue": false
 		}
 	},
 	"music.apple.com/": {
@@ -244,17 +241,12 @@
 			}
 		}
 	},
-	"resource-minecraft.h5.163.com/": {
-		"#/": {
-			"detail": {
-					"description": "我的世界中国版资源分享链接",
-					"mode": "white",
-					"params": [
-						"id"
-					],
-					"author": "Cloudy"
-			}
-		}
+	"resource-minecraft.h5.163.com": {
+		"description": "我的世界中国版资源分享链接",
+		"mode": "lambda",
+		"lambda": "if (url.hash.startsWith('#/detail?')) { const p = new URLSearchParams(url.hash.slice(9)); const c = new URLSearchParams(); c.set('id', p.get('id')); url.hash = '#/detail?' + c.toString(); } return url;",
+		"author": "Cloudy",
+		"continue": false
 	},
 	"search.bilibili.com": {
 		"description": "哔哩哔哩搜索",
