@@ -5,12 +5,33 @@ on:
     branches:
       - 'core-0.3.x'
     paths:
+      - 'ruleset.schema.json'
       - '*.json'
       - '!*.min.json'
 
 jobs:
+  validate:
+    name: "Validate"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - name: "Checkout Repository"
+        uses: "actions/checkout@v4"
+
+      - name: "Fetch `scheval`"
+        run: |
+          wget https://github.com/PRO-2684/scheval/releases/download/v0.1.2/scheval-v0.1.2-x86_64-unknown-linux-gnu.tar.gz
+          tar -xvf scheval-v0.1.2-x86_64-unknown-linux-gnu.tar.gz
+          mv scheval-v0.1.2-x86_64-unknown-linux-gnu/scheval ./scheval
+
+      - name: "Validate JSON Files"
+        run: |
+          ./scheval
+        working-directory: ./
+
   minify-and-purge:
     name: "Minify And Purge"
+    needs: "validate"
     runs-on: "ubuntu-latest"
 
     steps:
