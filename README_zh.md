@@ -4,10 +4,11 @@
 
 [![jsDelivr hits](https://data.jsdelivr.com/v1/package/gh/PRO-2684/pURLfy-rules/badge?style=rounded)](https://www.jsdelivr.com/package/gh/PRO-2684/pURLfy-rules?tab=stats)
 
-[pURLfy](https://github.com/PRO-2684/pURLfy) 的规则集。有关规则集结构的描述，请参阅 [pURLfy 的 README](https://github.com/PRO-2684/pURLfy/blob/main/README_zh.md#-%E8%A7%84%E5%88%99%E9%9B%86)；格式的形式化定义可以参考 [`ruleset.schema.json`](https://github.com/PRO-2684/pURLfy/blob/main/ruleset.schema.json)。
+[pURLfy](https://github.com/PRO-2684/pURLfy) 的规则集。有关规则集结构的描述，请参阅 [pURLfy 的 README](https://github.com/PRO-2684/pURLfy/blob/main/README_zh.md#-%E8%A7%84%E5%88%99%E9%9B%86)；格式的形式化定义可以参考 [`ruleset.schema.json`](ruleset.schema.json)。
 
 ## 📃 文件
 
+- [ruleset.schema.json](ruleset.schema.json): 规则集格式的形式化定义。
 - [list.json](list.json): 所有规则集的列表。
 - [tracking.json](tracking.json): 净化跟踪链接的规则。
 - [outgoing.json](outgoing.json): 净化外链的规则。

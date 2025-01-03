@@ -5,9 +5,10 @@
                 "*.json",
                 "!settings.json",
                 "!list.json",
-                "!list.min.json"
+                "!list.min.json",
+                "!ruleset.schema.json"
             ],
-            "url": "https://github.com/PRO-2684/pURLfy/raw/refs/heads/main/ruleset.schema.json"
+            "url": "/ruleset.schema.json"
         }
     ]
 }
