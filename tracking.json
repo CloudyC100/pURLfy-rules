@@ -58,7 +58,8 @@
 				"filters",
 				"ensearch",
 				"first",
-				"ubiroff"
+				"ubiroff",
+				"format"
 			],
 			"author": "PRO-2684"
 		},
@@ -255,6 +256,15 @@
 			"keyword"
 		],
 		"author": "PRO-2684"
+	},
+	"sg-links.stackoverflow.email/": {
+		"/\\w{2}/": {
+			"click": {
+				"description": "Stack Overflow (SendGrid)",
+				"mode": "redirect",
+				"author": "PRO-2684"
+			}
+		}
 	},
 	"space.bilibili.com/": {
 		"/^\\d+$": {

@@ -1,4 +1,11 @@
 {
+	"3.cn/": {
+		"/[\\w-]+": {
+			"description": "3.cn 短链",
+			"mode": "visit",
+			"author": "PRO-2684"
+		}
+	},
 	"b23.tv": {
 		"description": "哔哩哔哩短链",
 		"mode": "redirect",
